@@ -1,0 +1,57 @@
+.backsrg{
+    background-image: url(https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YnVzJTIwdHJhdmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 130vh;
+}
+
+.textstyle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+
+    color:#ba4e1c;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.word{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding-top: -100px;
+    color:black;
+    text-align: center;
+    margin-top:-25px;
+}
+
+.centre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    align-content: center;
+    color: azure;
+    text-align: center;
+}
+.link{
+    font-size: 20px;
+    padding-top: -100px;
+    margin-top:-100px;
+    color:black;
+}
+
+.bstyle{
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bottom{
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+.anim{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:red;
+    font-weight: 600;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Forms </title>
+<link rel="stylesheet" href="form 1.css">
+
+</head>
+
+<body>
+    <div>
+        <form>
+            <div class="txtcol"><h1><b> Amrita School of Engineering</b></h1>
+                <table>
+                    <tr>
+                        <td>
+                            <tr>
+                                <th><h2><b>Registeration</b></h2></th>
+                            </tr>
+                            <tr>
+                                <th><label for="name">Username :</label></th> <td><input type="text" name="username" required></td>
+                            </tr>
+                            <tr> 
+                                <th><label for="gmail">Gmail :</label></th><td><input type="text" name="email_id" required></td>
+                            </tr>
+                            <tr>
+                                <th><label for="phone">Telephone:</label></th>
+                                <td><input type="text" pattern="[0-9]{10}"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="DOB">DOB:</label></th> <td><input type="date" required></td>
+                            </tr>
+                            <tr>
+                                <th><label for="user_password">Password :</label></th> <td><input type="password" name="usr_pwd" id="user_password" required> 
+                                </td>
+                            </tr>
+                            <tr> 
+                                <th> Select Competitions: </th>
+                                <td><input type="checkbox" name="comp" id="HACKATHON">
+                                    <label for="HACKATHON">HACKATHON</label> <br>
+                                    <input type="checkbox" name="comp" id="CTF">
+                                    <label for="CTF">CTF</label><br>
+                                    <input type="checkbox" name="comp" id="Paper">
+                                    <label for="Paper">Paper Presentation</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>COURSE:</th>
+                                <td><select name="course" id="course">
+                                    <option value="NONE" selected hidden disabled>course</option>
+                                    <option value="CSE">CSE</option>
+                                    <option value="CYS">CYS</option>
+                                    <option value="AIE">AIE</option>
+                                    <option value="ECE">ECE</option>
+                                    <option value="EEE">EEE</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Upload your file:</th>
+                                <td><input type="file" name="upload" id="file_upload"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><br><input type="submit" value="Submit">
+                                    <input type="submit" value="Reset"></td>
+                            </tr>
+                        </td>
+                        
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+    <video autoplay muted loop id="myvideo">
+        <source src="vi.mp4" type="video/mp4">
+    </video>
+</body>
+
+</html>

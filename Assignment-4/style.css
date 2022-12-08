@@ -1,0 +1,338 @@
+@charset "utf-8";
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+.nav-area{
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 400px;
+}
+.nav-area1{
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 400px;
+}
+.nav-area li a1{
+    color:#ff0000;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 21px;
+}
+
+.td{
+    padding-top: -800px;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #960018;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+   
+}
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #960018;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    
+}
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #960018;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+}
+.button4 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #960018;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+}
+
+
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color:#ff0000;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 21px;
+}
+.nav-area li a:hover{
+    background: #ffffff;
+    color:#333;
+}
+
+a.btn{
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+
+  
+  
+  .nav point{
+    color: beige;
+  }
+
+  .banner
+  {
+    position: absolute;
+    width: 90%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -370px;
+  }
+
+  .banner video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+  }
+
+  .banner h2{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    background: #ffffff;
+    font-size: 20vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 100vh;
+    mix-blend-mode: screen;
+  }
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.back-video{
+    position: absolute;
+    right:0;
+    bottom:20;
+    padding: 90px 10px;
+    z-index:-1;
+}
+.back-video2{
+    position: absolute;
+    right:0;
+    bottom:20;
+    padding: 800px 10px;
+    z-index:-1;
+}
+
+.back-video3{
+    position: absolute;
+    right:0;
+    bottom:20;
+    padding: 0px 10px;
+    z-index:-1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accoutn_main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+}
+
+.accoutn_main .video{
+    position: fixed;
+    z-index: -100;
+    width: 100%;
+    height: auto;
+}
+
+.form_area{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 200%;
+    background: radial-gradient(circle at 250% 50%, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, #1661C2 100%);
+}
+.main_con{
+    position: relative;
+    padding: 50px;
+    width: 550px;
+}   
+.headline{
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.form_con{
+    position: relative;
+    padding: 30px;
+    width: 100%;
+}
+
+.form_con h2{
+    margin: 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.form_con .input-box{
+    position: relative;
+}
+
+.form_con .input-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.form_con .input-box select{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.form_con .input-box option{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.form_con .input-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 15px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.form_con .input-box input:focus + label,
+.form_con .input-box input:valid + label{
+    top: -25px;
+    left: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form_con .button{
+    text-align: center;
+}
+.form_con button{
+    font-size: 20px;
+    padding: 8px 20px;
+    background: none;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form_con button:hover{
+    background: #DDDDDD;
+    color: #1661C2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #DDDDDD, 0 0 25px #DDDDDD, 0 0 50px #DDDDDD, 0 0 100px #DDDDDD;
+}
+
+.hidden{
+    display: none;
+}
+
+.text-center{
+    text-align: center;
+    color: #fff;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+
+
+/* responsive media query */
+@media (max-width: 1080px){
+    .video{
+        display: none;
+    }
+    .accoutn_main{
+        width: 100%;
+        height: 100%;
+        background-size:  cover;
+    }
+    
+}
+
+@media (max-width: 665px){
+    .video{
+        display: none;
+    }
+    .accoutn_main{
+        background: #1661C2;
+    }
+    
+}
+@media (max-width: 550px){
+    .video{
+        display: none;
+    }
+    .accoutn_main{
+        background: #1661C2;
+    }
+    .main_con{
+        width: 100%;
+    }
+}
+   

@@ -1,0 +1,27 @@
+.back{
+    background-image: url(https://images.jdmagicbox.com/rep/b2b/Coach-Bus/Coach-Bus-1.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 500px;
+}
+
+.centre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 300px;
+    font-size: 30px;
+    color: black;
+} 
+
+.top{
+    background-color:red;
+    border-radius: 10px;
+}
+
+.last{
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 30px;
+}

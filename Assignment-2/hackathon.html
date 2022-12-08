@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        #myvideo {
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .mainback{
+            color: white;
+
+        }
+        .txtcol{
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.4); 
+            color: white;
+            font-weight: bold;
+            border: 2px solid #121111;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<title>HACKATHON</title>
+<body class="mainback">
+    <center><h1>SMART HACKATHON</h1></center>
+    <center><h3>World's biggest open platform for the innovators or entrepreneurs of tomorrow to start today towards a smarter India</h3></center>
+    
+    <div class="txtcol">
+        <div>
+            <h2>Ingenious</h2>
+            <p>Harnessing creativity and expertise of students, academicians and visionaries</p>
+        </div>
+        <div>
+            <h2>Engaging</h2>
+            <p>Sparking institute-level hackathons, fuelling imagination</p>
+        </div>
+        <div>
+            <h2>Futuristic</h2>
+            <p>Building funnel for 'Start-up India' campaign</p>
+        </div>
+        <div>
+            <h2>Collaborating</h2>
+            <p>Crowdsourcing intelligence for improving governance and quality of life</p>
+        </div>
+        <div>
+            <h2>Empowering</h2>
+            <p>Enabling possibilities and enhancing opportunities for citizens to deliver innovative solutions to India's daunting problems</p>
+        </div>
+    </div>
+    <video autoplay muted loop id="myvideo">
+        <source src="vi.mp4" type="video/mp4">
+    </video>
+    
+</body>
+</html>

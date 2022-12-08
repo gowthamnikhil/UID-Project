@@ -1,0 +1,23 @@
+.centre{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0874c7;
+    font-size: 40px;
+    background-color: black;
+    margin-top: 300px;
+}
+
+.backgr{
+    background-image: url(https://t4.ftcdn.net/jpg/02/69/47/51/360_F_269475198_k41qahrZ1j4RK1sarncMiFHpcmE2qllQ.jpg);
+    overflow: hidden;
+    background-size: cover;
+}
+.last{
+    margin-top: -20px;
+}
+.home{
+    text-align: center;
+    margin-left: 640px;
+    font-size: 25px;
+    
+}

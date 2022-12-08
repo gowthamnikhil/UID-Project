@@ -1,0 +1,35 @@
+.centre{
+    text-align: center;
+}
+.tablecen{
+    padding-left: 0px;
+}
+
+#myvideo {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.back{
+    margin-top: 200px;
+    color: white;
+}
+
+.txtcol{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 2px solid #121111;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 10px;
+}

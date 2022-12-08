@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>   
+    <title>  
+    Registration Page  
+    </title>  
+    </head>    
+    <br>  
+    <br>  
+    <style>
+    .back{
+    background-image: url(https://dt19wmazj2dns.cloudfront.net/wp-content/uploads/2019/06/amrita-vishwa-vidyapeetham-chennaicampus-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+    }
+    .bg {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    }
+    </style>
+   
+    <body class="back" align="center">
+        <h1>Amrita Cyber Month Registeration Form</h1>
+        
+    
+    <form class="bg">  
+      
+    <label> Firstname: </label>         
+    <input type="text" name="firstname" size="15"/>    
+    <label> Lastname: </label>           
+    <input type="text" name="lastname" size="15"/> <br> 
+
+    <label>   
+        Gender :  
+        </label><br>  
+        <input type="radio" name="male"/> Male 
+        <input type="radio" name="female"/> Female  
+        <br>  
+        <br>  
+    
+    <label > DOB </label></td> <td><input type="date">
+    <br>
+    <label>   
+        Year of study:  
+        </label><br>  
+        <input type="radio" name="First"/> First <br>  
+        <input type="radio" name="Second"/> Second <br>  
+        <input type="radio" name="Third"/> Third <br> 
+        <input type="radio" name="Fourth"/> Fourth <br>
+      
+    <label>   
+    Course :  
+    </label>   
+    <select>  
+    <option value="Course">Course</option>  
+    <option value="CSE">CSE</option>  
+    <option value="AIE">AIE</option>  
+    <option value="CYS">CYS</option>  
+    <option value="ECE">ECE</option>  
+    <option value="CCE">CCE</option>  
+    <option value="MEE">MEE</option>  
+    </select>  
+    <br>
+    <br>
+    
+    <label>Event</label><input type="checkbox" name="cour" id="con">
+        <label for="con">Cyber Conclave </label><br>
+        <input type="checkbox" name="cour" id="meet">
+        <label for="meet">Industry Meet</label><br>
+        <input type="checkbox" name="cour" id="fest">
+        <label for="fest">Cyber Tech Fest</label>
+      
+    <br>  
+    <br>  
+    
+      
+    <label>   
+    Phone number:  
+    </label>  
+    <input type="text" name="phone" size="10"/> <br> <br>  
+    Address:  
+    <br>  
+    <textarea cols="40" rows="3" value="address">  
+    </textarea>  
+    <br> <br>  
+    Email:  
+    <input type="email" id="email" name="email"/> <br>    
+    <br> <br>  
+    <label>ID Proof:</label><input type="file" name="ID Proof">
+    <br> <br>
+    <input type="button" value="Submit"/>  
+    </form>  
+    </body>  
+    </html>
